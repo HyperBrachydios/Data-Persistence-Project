@@ -23,7 +23,7 @@ public class MainManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        //highScoreText.text = NameManager.instance.text;
+        highScoreText.text = NameManager.instance.playerName;
         const float step = 0.6f;
         int perLine = Mathf.FloorToInt(4.0f / step);
         

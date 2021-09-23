@@ -20,6 +20,7 @@ public class menuManager : MonoBehaviour
 
     public void startGame()
     {
+        NameManager.instance.StartGame();
         SceneManager.LoadScene(1);
     }
 }
